@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: ns-snakeapp
+  name: snakeapp-service
+  labels:
+    app: snakeapp
+spec:
+  selector:
+    app: snakeapp
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30019
