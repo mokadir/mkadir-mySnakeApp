@@ -13,7 +13,7 @@ const pauseBtn = document.getElementById('pauseBtn');
 const GRID_SIZE = 20;
 const TILE_COUNT = canvas.width / GRID_SIZE;
 const STORAGE_KEY = 'snakeGameHighScore';
-const INITIAL_SPEED = 110;
+const INITIAL_SPEED = 200;
 const MIN_SPEED = 40;
 const SPEED_STEP = 5;
 
