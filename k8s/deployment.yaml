@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: snakeapp-container
-          image: mokadir/snakeapp:latest
+          image: mokadir/snakeapp:1
           ports:
             - containerPort: 80
           resources:
